@@ -40,6 +40,7 @@ namespace AppiumMobileTestingLearning
             //options.AddAdditionalCapability("automationName", "UiAutomator2");
             //options.AddAdditionalCapability("appActivity", "host.exp.exponent.LauncherActivity");
 
+
             Uri url = new Uri("http://localhost:4723/wd/hub");
 
             driver = new AndroidDriver<AndroidElement>(url, options);
